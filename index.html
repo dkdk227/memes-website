@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+            body {
+        font-family: arial;
+            background-image: url(heaven.jpeg);
+        background-size: cover;      /* растягивает на весь экран */
+    background-repeat: no-repeat;/* убирает повтор */
+    }
+    .jojo {
+        margin-top: 200px;
+    }
+      .jiji {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+        padding: 30px;
+        border-radius: 40px;
+
+          /* 🌫 Прозрачное "жидкое стекло" */
+  background: rgba(255, 255, 255, 0.226);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+
+  /* ⚪️ Мягкая стеклянная рамка */
+  border: 1px solid rgba(255, 255, 255, 0.28);
+
+  /* ✨ Текст */
+  color: #3e331e;
+
+
+  /* Анимация при наведении (как живое стекло) */
+  transition: 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgba(99, 91, 91, 0.4);
+    }
+    .foto {
+        width: 100%;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgb(255, 118, 141);
+         max-width: 100%;
+    height: auto;
+    }
+    body.dark {
+    background-image: url(hell.jpg);
+        background-size: cover;      /* растягивает на весь экран */
+    background-repeat: no-repeat;/* убирает повтор */
+    color: white;
+}
+
+body.dark .jiji {
+ background: rgba(0, 0, 0, 0.571);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+
+  /* ⚪️ Мягкая стеклянная рамка */
+  border: 1px solid rgba(255, 255, 255, 0.28);
+
+  /* ✨ Текст */
+  color: #ffffff;
+
+
+  /* Анимация при наведении (как живое стекло) */
+  transition: 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgba(99, 91, 91, 0.4);
+}
+
+body.dark button {
+    width: 270px;
+    background-color: #44444425;
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+
+  /* ⚪️ Мягкая стеклянная рамка */
+  border: 1px solid rgba(255, 255, 255, 0.28);
+
+  /* ✨ Текст */
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+
+  /* Анимация при наведении (как живое стекло) */
+  transition: 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgba(99, 91, 91, 0.4);
+  
+ height: 60px;
+  padding: 14px 32px;
+  border-radius: 18px;
+
+  
+}
+
+body.dark button:hover {
+      background: rgba(207, 207, 207, 0.28);
+  transform: scale(1.05);
+}
+
+
+
+body.green {
+    background-image: url(forest.jpg);
+        background-size: cover;      /* растягивает на весь экран */
+    background-repeat: no-repeat;/* убирает повтор */
+    color: rgb(221, 255, 212);
+}
+
+body.green .jiji {
+  /* 🌫 Прозрачное "жидкое стекло" */
+  background: rgba(75, 191, 212, 0.226);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+
+  /* ⚪️ Мягкая стеклянная рамка */
+  border: 1px solid rgba(255, 255, 255, 0.28);
+
+  /* ✨ Текст */
+  color: #3e331e;
+
+
+  /* Анимация при наведении (как живое стекло) */
+  transition: 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgba(99, 91, 91, 0.4);
+  
+}
+
+body.green button {
+     width: 270px;
+    background-color: #0f4b005c;
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+
+  /* ⚪️ Мягкая стеклянная рамка */
+  border: 1px solid rgba(255, 255, 255, 0.28);
+
+  /* ✨ Текст */
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+
+  /* Анимация при наведении (как живое стекло) */
+  transition: 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgba(99, 91, 91, 0.4);
+  
+ height: 60px;
+  padding: 14px 32px;
+  border-radius: 18px;
+
+  
+}
+
+body.green button:hover {
+       background: rgba(200, 255, 214, 0.463);
+  transform: scale(1.04);
+}
+.hidden {
+    display: none;
+}
+
+
+    body.murino {
+    background-image: url(murino.jpg);
+        background-size: cover;      /* растягивает на весь экран */
+    background-repeat: no-repeat;/* убирает повтор */
+    color: white;
+}
+
+body.murino .jiji {
+background: rgba(0, 0, 0, 0.571);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+
+  /* ⚪️ Мягкая стеклянная рамка */
+  border: 1px solid rgba(255, 255, 255, 0.28);
+
+  /* ✨ Текст */
+  color: #ffffff;
+
+
+  /* Анимация при наведении (как живое стекло) */
+  transition: 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgba(99, 91, 91, 0.4);
+}
+
+body.murino button {
+     width: 270px;
+    background-color: #44444425;
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+
+  /* ⚪️ Мягкая стеклянная рамка */
+  border: 1px solid rgba(255, 255, 255, 0.28);
+
+  /* ✨ Текст */
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+
+  /* Анимация при наведении (как живое стекло) */
+  transition: 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgba(99, 91, 91, 0.4);
+  
+ height: 60px;
+  padding: 14px 32px;
+  border-radius: 18px;
+}
+
+body.murino button:hover {
+     background: rgba(207, 207, 207, 0.28);
+  transform: scale(1.05);
+}
+body.murino image {
+     box-shadow: 0px 0px 10px rgb(0, 0, 0);
+     border-radius: 1px;
+}
+
+.gg {
+    width: 80%;
+    margin-top: 20px;
+}
+
+#heaven {
+    display: block;
+}
+
+#hell {
+    display: none; /* изначально скрыт */
+}
+#murino {
+    display: none; /* изначально скрыт */
+}
+nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button {
+    width: 270px;
+     display: inline-block; /* чтобы стекло было по размеру текста */
+  padding: 14px 32px;
+  border-radius: 18px;
+
+  /* 🌫 Прозрачное "жидкое стекло" */
+  background: rgba(165, 165, 165, 0.263);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+
+  /* ⚪️ Мягкая стеклянная рамка */
+  border: 1px solid rgba(255, 255, 255, 0.28);
+
+  /* ✨ Текст */
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+
+  /* Анимация при наведении (как живое стекло) */
+  transition: 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgba(99, 91, 91, 0.4);
+}
+
+button:hover {
+  background: rgba(207, 207, 207, 0.28);
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+
+.jojo{
+    margin-top: 40px;
+}
+
+}
+
+@media (max-width: 600px) {
+
+button{
+    width: 100%;
+    font-size: 18px;
+}
+
+}
+    </style>
+    <section class="jojo">
+<div class="jiji"> 
+    <h3 id="piska">Nasze Logo:</h3>
+    <img class="foto" id="logo" src="epstein.jpg" alt="Logo">
+
+    <hr>
+<nav>
+    <button id="toggleBtn" onclick="toggleScript()">ВОЙТИ В АД</button> <br> <br>
+    <button id="btn" onclick="tuglScript()">???</button> <br> <br>
+    <button id="btnMurino" onclick="tulScript()">Murino</button>
+</nav>    
+
+    <br>
+<div id="murino" >
+    <h1 style="color: red;">ТЫ сдохнешь пидорасина</h1>
+    <h1>В главных ролях:</h1>
+    <ul>
+        <li><h1>Aртур</h1><br> <img class="gg" src="artur.webp" alt=""></li>
+        <li class="gg"><h1>Ч</h1><img src="ch.jpg" alt="" width="80%"></li>
+        <li><h1>Друн</h1><img src="drun.png" alt="" width="50%"></li>
+    </ul>
+    <h1>Главный антагонист:</h1>
+    <ul>
+        <li><h1>The Fog</h1><img src="fog1.jpg" alt="" width="40%"></li>
+    </ul>
+</div>
+
+<div id="heaven">
+     <h1>Добро пожаловать в Рай!</h1>
+    <img src="heaven1.jpg" alt="" width="100%" style="border-radius: 40px;">
+
+</div>
+
+<div id="hell">
+     <h1>Добро пожаловать в АД!</h1>
+    <img src="hell1.jpg" alt="" width="100%" style="border-radius: 40px;">
+</div>
+</div>
+</section>
+<script src="t13.1.js"></script>
+</body>
+</html>
